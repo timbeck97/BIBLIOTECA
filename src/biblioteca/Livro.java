@@ -25,4 +25,11 @@ public class Livro {
 	public String toString() {
 		return titulo;
 	}
+	public String disponibilidade() {
+		if(disponibilidade) {
+			return "Disponivel";
+		}
+		else
+			return "Indisponível";
+	}
 }

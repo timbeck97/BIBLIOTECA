@@ -9,8 +9,6 @@ public class Programa {
 		Biblioteca b=new Biblioteca();
 		
 		Tela.imprimeAcervo(b.getAcervo());
-	
-		
 		
 
 	}

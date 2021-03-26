@@ -31,9 +31,9 @@ public class Livro {
 	}
 	public String disponibilidade() {
 		if(disponibilidade) {
-			return "Disponivel";
+			return "[D]";
 		}
 		else
-			return "Indisponível";
+			return "[ ]";
 	}
 }

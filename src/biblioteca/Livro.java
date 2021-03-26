@@ -16,8 +16,12 @@ public class Livro {
 	public String getTitulo() {
 		return titulo;
 	}
-	public boolean isDisponibilidade() {
+	
+	public boolean getDisponibilidade() {
 		return disponibilidade;
+	}
+	public void setDisponibilidade() {
+		this.disponibilidade=true?false:true;
 	}
 	public int getId() {
 		return id;

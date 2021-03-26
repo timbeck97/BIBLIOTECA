@@ -11,6 +11,7 @@ public class Biblioteca {
 	public Biblioteca() {
 		this.acervo=new ArrayList<Livro>();
 		this.clientes=new ArrayList<Pessoa>();
+		acervoInicial();
 	}
 
 	public List<Livro> getAcervo() {
@@ -32,9 +33,14 @@ public class Biblioteca {
 	public void retiraLivro(int id) {
 		for(Livro livro : acervo) {
 			if(livro.getId()==id) {
-				acervo.remove(livro);
+				livro.setDisponibilidade();
 			}
 		}
+	}
+	public void acervoInicial() {
+		adicionaLivro("O Pequeno Principe");
+		adicionaLivro("O Codigo da Vinci");
+		adicionaLivro("O Crime do Padre Amaro");
 	}
 	
 	

@@ -32,12 +32,14 @@ public class Programa {
 			switch(sc.nextInt()) {
 				case 1: Tela.imprimeAcervo(b.getAcervo());
 						System.out.println("OK para continuar");
+						sc.nextLine();
 						sc.next();
 						break;
 				case 2:System.out.print("Digite o nome do livro: ");
 						String p=sc.next();
 						Tela.buscaLivro(b.getAcervo(), p);
 						System.out.println("OK para continuar");
+						sc.nextLine();
 						sc.next();
 						break;
 			}

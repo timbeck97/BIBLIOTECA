@@ -42,6 +42,14 @@ public class Biblioteca {
 		adicionaLivro("O Pequeno Principe");
 		adicionaLivro("O Codigo da Vinci");
 		adicionaLivro("O Crime do Padre Amaro");
+		adicionaLivro("Harry Potter e o Calice de fogo");
+		adicionaLivro("A Garota do Lago");
+		adicionaLivro("O Principe e a Princesa");
+		adicionaLivro("O Padre");
+		adicionaLivro("Harry Potter e as Reliquias da Morte - Parte 1");
+		adicionaLivro("O Principe");
+		adicionaLivro("Codigo em C: Como programar");
+		adicionaLivro("Harry Potter e o Enigma do Principe");
 	}
 	public void listadecadastroInicial() {
 		clientes.add(new Pessoa("Tim Beck", 0426322, "tim", "bolinho"));

@@ -12,6 +12,7 @@ public class Biblioteca {
 		this.acervo=new ArrayList<Livro>();
 		this.clientes=new ArrayList<Pessoa>();
 		acervoInicial();
+		listadecadastroInicial();
 	}
 
 	public List<Livro> getAcervo() {
@@ -41,6 +42,10 @@ public class Biblioteca {
 		adicionaLivro("O Pequeno Principe");
 		adicionaLivro("O Codigo da Vinci");
 		adicionaLivro("O Crime do Padre Amaro");
+	}
+	public void listadecadastroInicial() {
+		clientes.add(new Pessoa("Tim Beck", 0426322, "tim", "bolinho"));
+		clientes.add(new Pessoa("Keila Massaia", 1234, "keila", "pao"));
 	}
 	
 	
